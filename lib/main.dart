@@ -1,4 +1,4 @@
-import 'package:first_meeting/screen/home_screen.dart';
+import 'package:first_meeting/screen/review_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
                 fontSize: 50.0,
                 fontWeight: FontWeight.w500)),
       ),
-      home: const HomeScreen(),
+      home: const ReviewScreen(),
     );
   }
 }
